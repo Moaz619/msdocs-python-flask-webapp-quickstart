@@ -29,7 +29,7 @@ def hello():
       
 @app.route('/names', methods=['GET'])
 def names():
-   return "Mousa\n, Moaz\n, Ismail\n,Mostafa\n, seif\n"
+   return "<ul><li>Mousa</li>,<li> Moaz</li>,<li>Mostafa</li></ul>"
 
 
 if __name__ == '__main__':
