@@ -28,7 +28,7 @@ def hello():
        return redirect(url_for('index'))
       
 @app.route('/names', methods=['GET'])
-def hello():
+def names():
    return "Mousa\n, Moaz\n, Ismail\n,Mostafa\n, seif\n"
 
 
